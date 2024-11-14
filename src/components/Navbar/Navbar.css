@@ -1,0 +1,59 @@
+.navbar{
+    height: 80px;
+    width:100vw;
+    top:0;
+    position: fixed;
+    z-index: 1000;
+    background: #000;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 62px 0px rgba(143, 255, 0, 0.06);
+}
+
+.navbar-items-container{
+    height: 18px;
+    padding-left: 30px;
+    width: 100%;
+    display: flex;
+    gap:5%;
+    justify-content: center;
+    align-items: center;   
+}
+
+.navbar-items > a{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-text {
+    color: var(--PortWhite, #FFF);
+    font-family: "Red Hat Mono";
+    font-size: 19.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    letter-spacing: -0.318px;
+}
+
+#nav-text:hover, #nav-text:active{
+    color: var(--PortGreen, #8FFF00);
+}
+    
+.navbar-item .text-wrapper {
+    font-size: 21.2px;
+    left: 0;
+    letter-spacing: -0.32px;
+    line-height: 21.2px;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+    }
+
+@media (max-width: 1200px) {
+    .navbar-items-container{
+        padding-left: 0px;
+    }
+}

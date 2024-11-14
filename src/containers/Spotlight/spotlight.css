@@ -1,0 +1,121 @@
+.Spotlight-overall-container{
+    background-image: url(../../assets/Spotlight/bg.png);
+    margin-top: 10px;
+    z-index: -20;
+    width: 100%;
+    height: calc(100vh );
+    background-size: cover, auto, auto;
+    background-repeat: no-repeat, repeat, repeat;
+    background-position: center, left center, left center ; 
+    flex-direction: column;
+    justify-content: start;
+    overflow-x:hidden ;
+}
+
+.title-text{
+    z-index: 10;
+    margin-top: 20px;
+    color: var(--PortWhite, #FFF);
+    text-align: center;
+    font-family: "Red Hat Mono";
+    font-size: 80.703px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -9.57px;
+}
+
+.namestyles{
+    font-family: "Red Hat Mono";
+    color: var(--PortGreen, #8FFF00);
+}
+
+.title-description{
+    margin-top: -10px;
+    color: #888;
+    font-family: "Red Hat Mono";
+    font-size: 52.639px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -4.864px;
+}
+
+.spotlight-buttons-container{
+    margin-top: 30px;
+    width: 90%;
+    gap: 5%;
+}
+
+.spotlight-download-button{
+    border-radius: 38.29px;
+    border: 1.276px solid var(--PortGrey, #CCC);
+    gap: 10px;
+    height: 55px;
+    width: 230px;
+}
+
+.spotlight-download-button > p{
+    color: var(--PortWhite, #FFF);
+    font-family: "Red Hat Mono";
+    font-size: 20.029px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+
+.downloadicon{
+    height: 20px;
+    width: auto;
+}
+
+.spotlight-contact-button{
+    border-radius: 38.29px;
+    background: var(--PortGreen, #8FFF00);
+    gap: 10px;
+    height: 56px;
+    width: 231px;
+}
+
+.spotlight-contact-button > p{
+    color: #000;
+    font-family: "Red Hat Mono";
+    font-size: 20.029px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+
+.contacticon{
+    height: 17px;
+    width: auto;
+}
+
+.spotlight-roles-container{
+    gap: 15px;
+    position: absolute;
+    bottom:80px;
+}
+
+.spotlight-roles{
+    color: var(--PortWhite, #FFF);
+    font-family: "Red Hat Mono";
+    font-size: 26.267px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 28.267px */
+    letter-spacing: -0.424px;
+}
+
+.line-between{
+    margin-top: -3px;
+    color: var(--PortGreen, #8FFF00);
+    font-family: "Red Hat Display";
+    font-size: 28.267px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 28.267px */
+    letter-spacing: -0.424px;
+}

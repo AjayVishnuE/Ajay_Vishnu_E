@@ -1,0 +1,29 @@
+.gradientcircle{
+    width: 1400px;
+    height: 1400px;
+    flex-shrink: 0;
+    border-radius: 1400px;
+    z-index: -1;
+    opacity: 0.1;    
+    overflow-x:hidden ;
+    overflow-y:hidden ;
+    background: radial-gradient(50% 50% at 50% 50%, #8FFF00 0%, rgba(143, 255, 0, 0.00) 100%);
+}
+
+.gradient-circle-div1{
+    position: absolute;
+    z-index: 1;
+    top: -600px;
+    right: -600px;
+    overflow-x:hidden ;
+    overflow-y:hidden ;
+}
+
+.gradient-circle-div2{
+    position: absolute;
+    z-index: 1;
+    bottom: -700px;
+    left: -700px;
+    overflow-x:hidden ;
+    overflow-y:hidden ;
+}

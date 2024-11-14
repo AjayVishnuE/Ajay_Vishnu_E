@@ -1,0 +1,26 @@
+.overall-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px;
+}
+
+.typewriter-container{
+    border: 1.5px solid var(--PortWhite, #FFF);
+    height: fit-content;
+    width: fit-content;
+    position:relative;
+    border-radius:50px 50px 50px 50px ;
+    padding: 12.5px 25px;   
+}
+
+span{
+    color: var(--PortWhite, #FFF);
+    font-family: "Red Hat Mono";
+    font-size: 20.029px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+
