@@ -1,10 +1,31 @@
 .App{
     margin: 0;
     padding: 0;
+    background-color: #000000;
+    color: var(--PortWhite, #FFF);
 }
 
 .flex-center{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.p-heading{
+    text-align: center;
+    font-family: "Red Hat Mono";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 55px */
+    letter-spacing: -0.825px;
+    background: linear-gradient(180deg, #FFF 15.12%, rgba(255, 255, 255, 0.00) 138.37%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p-highlight{
+    color: var(--PortGreen);    
+    font-family: "Red Hat Mono";
 }

@@ -1,4 +1,16 @@
 .orglogoset-container{
-    background-color: var(--PortBlack);
-    height: 150px;
+    padding: 40px 0 0 0;
+}
+
+.orglogo-container{
+    width: 220px;
+    height: 80px;
+    border: 0.5px solid var(--PortGrey2, #AAA);
+    background: #000;
+}
+
+.orglogo-img{
+    width: 120px;
+    height: 40px;
+    object-fit: contain;
 }

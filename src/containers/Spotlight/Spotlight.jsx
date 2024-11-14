@@ -12,7 +12,7 @@ function Spotlight() {
       <h1 className='title-text'>I'm&nbsp;<label className='namestyles'>{SpotlightData.name}</label>,</h1>
       <h1 className="title-description">{SpotlightData.desription}</h1>
       <div className='flex-center spotlight-buttons-container'>
-          <a href={pdfFile} download="Resume Enric S Neelamkavil.pdf" target='_blank'>
+          <a href={pdfFile} download="Resume Ajay Vishnu E" target='_blank'>
               <div className='flex-center spotlight-download-button'>
                 <p>DOWNLOAD CV</p>
                 <WhiteDownloadIcon/>
