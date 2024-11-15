@@ -1,6 +1,6 @@
 import './App.css';
 import { KnowMore, Navbar, OrgLogoSet } from './components';
-import { Spotlight, WhoAmI } from './containers';
+import { Skills, Spotlight, WhoAmI } from './containers';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <Spotlight/>
         <OrgLogoSet/>
         <WhoAmI/>
+        <Skills/>
         <KnowMore/>
     </div>
   );

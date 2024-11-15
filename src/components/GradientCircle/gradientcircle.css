@@ -3,7 +3,8 @@
     height: 1400px;
     flex-shrink: 0;
     border-radius: 1400px;
-    z-index: -1;
+    position: absolute;
+    z-index: 1;
     opacity: 0.1;    
     overflow-x:hidden ;
     overflow-y:hidden ;
@@ -11,19 +12,18 @@
 }
 
 .gradient-circle-div1{
-    position: absolute;
-    z-index: 1;
     top: -600px;
     right: -600px;
-    overflow-x:hidden ;
-    overflow-y:hidden ;
 }
 
 .gradient-circle-div2{
-    position: absolute;
-    z-index: 1;
     bottom: -700px;
     left: -700px;
-    overflow-x:hidden ;
-    overflow-y:hidden ;
+}
+
+.gradient-circle-div3{
+    bottom:-900px;
+    right: -700px;
+    z-index: 100;
+
 }

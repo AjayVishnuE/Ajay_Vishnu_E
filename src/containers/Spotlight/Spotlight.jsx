@@ -37,9 +37,9 @@ function Spotlight() {
         }
       </div>
       <div className='gradientcircle gradient-circle-div1'>
-        </div>
-        <div className='gradientcircle gradient-circle-div2'>
-        </div>
+      </div>
+      <div className='gradientcircle gradient-circle-div2'>
+      </div>
     </div>
   )
 }

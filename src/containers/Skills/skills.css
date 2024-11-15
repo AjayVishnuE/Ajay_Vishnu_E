@@ -1,0 +1,54 @@
+.skills-overall-container{
+    padding: 80px 0 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.skills-container{
+    flex-wrap: wrap;
+    gap: 15%;
+}
+
+.skills-category {
+    margin-bottom: 40px;
+}
+
+.category-heading {
+    color: var(--PortGreen, #8FFF00);
+    text-align: center;
+    font-family: "Red Hat Mono";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.25px;
+    margin: 40px 0;
+}
+
+.skills-grid {
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.skill-card {
+    flex-direction: column;
+    text-align: center;
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    color: var(--PortGrey2, #AAA);
+    text-align: center;
+    font-family: "Red Hat Mono";
+    font-size: 19.39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.97px;
+}
+

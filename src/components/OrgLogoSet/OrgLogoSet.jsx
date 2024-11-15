@@ -12,13 +12,13 @@ function OrgLogoSet() {
                 <img className='orglogo-img' src={logo} key={index} alt={`Organisation Logo ${index}`} />
             </div>
         ))}
-        {/* <div className='edgecube-container-1'>
+        <div className='edgecube-container-1'>
             <EdgeCube 
-            edgeSize={100}
+            edgeSize={130}
             frontColor="#FFFFFF80"  // Black for visible edges
             backColor="#FFFFFF1A"   // Red for hidden edges and diagonals
             />
-        </div> */}
+        </div>
     </div>
   )
 }

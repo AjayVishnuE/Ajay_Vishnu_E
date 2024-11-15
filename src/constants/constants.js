@@ -2,7 +2,7 @@ import OrganisationLogo1 from "../assets/OrganisationLogos/Mulearn Logo.png";
 import OrganisationLogo2 from "../assets/OrganisationLogos/CSI SB CCE Logo.png";
 import OrganisationLogo3 from "../assets/OrganisationLogos/RR Logo.png";
 import OrganisationLogo4 from "../assets/OrganisationLogos/CCE Logo.png";
-import { GitHubIcon, HackeRankIcon, LinkedInIcon } from "./imports";
+import { GitHubIcon, HackeRankIcon, LinkedInIcon, SkillCss, SkillDjango, SkillFigma, SkillGit, SkillGithub, SkillHtml, SkillJs, SkillNetlify, SkillNode, SkillPostgres, SkillPostman, SkillPython, SkillReact, SkillSql, SkillVSCode } from "./imports";
 
 export const NavbarDataset = ["Home","About","skills","Projects","Experience","Contact"];
 
@@ -23,4 +23,28 @@ export const WhoAmIData = {
     GitHub:[GitHubIcon,"https://github.com/AjayVishnuE"],
     HackerRank:[HackeRankIcon,"https://www.hackerrank.com/profile/ajayvishnu121"],
     LinkedIn:[LinkedInIcon,"https://www.linkedin.com/in/ajayvishnue/"]
+}
+
+export const FrontendSkillSetData = {
+    HTML:SkillHtml,
+    CSS:SkillCss,
+    REACT:SkillReact,
+    DJANGO:SkillDjango,
+    JS:SkillJs
+}
+
+export const BackendSkillSetData = {
+    POSTGRESQL: SkillPostgres,
+    NODE:SkillNode,
+    MYSQL: SkillSql,
+    PYTHON:SkillPython
+}
+
+export const OtherSkillSetData = {
+    GIT:SkillGit,
+    GITHUB:SkillGithub,
+    NETLIFY:SkillNetlify,
+    POSTMAN:SkillPostman,
+    VSCODE:SkillVSCode,
+    FIGMA:SkillFigma
 }

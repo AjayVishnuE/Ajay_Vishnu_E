@@ -1,41 +1,33 @@
 import React from 'react';
 import './edgecube.css';
 
-const EdgeCube = ({ edgeSize = 200, frontColor = "#FFFFFF80", backColor = "#FFFFFF1A" }) => {
-  // Calculate coordinates based on edgeSize
-  const halfSize = edgeSize / 2;
-  const quarterSize = edgeSize / 4;
-  const threeQuarterSize = (edgeSize * 3) / 4;
-
+const EdgeCube = ({ edgeSize, frontColor = "#FFFFFF80", backColor = "#FFFFFF1A" }) => {
   return (
-    <div className="edgecube-container">
-      <svg className="cube-svg" viewBox={`0 0 ${edgeSize} ${edgeSize}`} preserveAspectRatio="xMidYMid meet">
-        <g transform={`translate(${quarterSize}, ${quarterSize})`}>
-          {/* Hidden/Back edges */}
-          <line style={{ stroke: frontColor }} className="front-edge" x1="0" y1={threeQuarterSize} x2={halfSize} y2={edgeSize} />
-          <line style={{ stroke: frontColor }} className="front-edge" x1={edgeSize} y1={threeQuarterSize} x2={halfSize} y2={edgeSize} />
+    <svg width={edgeSize} height={edgeSize}>
+      {/* Hidden/Back edges */}
+      <line x1={0} y1={edgeSize * 0.75} x2={edgeSize * 0.5} y2={edgeSize} stroke={frontColor}/>
+      <line x1={edgeSize} y1={edgeSize * 0.75} x2={edgeSize * 0.5} y2={edgeSize} stroke={frontColor}/>
 
-          {/* Diagonal lines split into two */}
-          <line style={{ stroke: frontColor }} className="front-edge" x1="0" y1={quarterSize} x2={halfSize} y2={halfSize} />
-          <line style={{ stroke: backColor }} className="back-edge" x1={halfSize} y1={halfSize} x2={edgeSize} y2={threeQuarterSize} />
+      {/* Diagonal lines */}
+      <line x1={0} y1={edgeSize * 0.25} x2={edgeSize * 0.5} y2={edgeSize * 0.5} stroke={frontColor}/>
+      <line x1={edgeSize * 0.5} y1={edgeSize * 0.5} x2={edgeSize} y2={edgeSize * 0.75} stroke={backColor}/>
 
-          <line style={{ stroke: backColor }} className="back-edge" x1="0" y1={threeQuarterSize} x2={halfSize} y2={halfSize} />
-          <line style={{ stroke: frontColor }} className="front-edge" x1={halfSize} y1={halfSize} x2={edgeSize} y2={quarterSize} />
+      {/* Diagonal from (0, 75) to (100, 25) */}
+      <line x1={0} y1={edgeSize * 0.75} x2={edgeSize * 0.5} y2={edgeSize * 0.5} stroke={backColor}/>
+      <line x1={edgeSize * 0.5} y1={edgeSize * 0.5} x2={edgeSize} y2={edgeSize * 0.25} stroke={frontColor}/>
 
-          {/* Vertical line split in half */}
-          <line style={{ stroke: backColor }} className="back-edge" x1={halfSize} y1="0" x2={halfSize} y2={halfSize} />
-          <line style={{ stroke: frontColor }} className="front-edge" x1={halfSize} y1={halfSize} x2={halfSize} y2={edgeSize} />
+      {/* Vertical line split in half */}
+      <line x1={edgeSize * 0.5} y1={0} x2={edgeSize * 0.5} y2={edgeSize} stroke={backColor}/>
+      <line x1={edgeSize * 0.5} y1={edgeSize * 0.5} x2={edgeSize * 0.5} y2={edgeSize} stroke={frontColor}/>
 
-          {/* Visible edges */}
-          <line style={{ stroke: frontColor }} className="front-edge" x1="0" y1={quarterSize} x2={halfSize} y2="0" />
-          <line style={{ stroke: frontColor }} className="front-edge" x1={halfSize} y1="0" x2={edgeSize} y2={quarterSize} />
-          <line style={{ stroke: frontColor }} className="front-edge" x1={halfSize} y1={halfSize} x2={edgeSize} y2={quarterSize} />
-          <line style={{ stroke: frontColor }} className="front-edge" x1="0" y1={quarterSize} x2="0" y2={threeQuarterSize} />
-          <line style={{ stroke: frontColor }} className="front-edge" x1={edgeSize} y1={quarterSize} x2={edgeSize} y2={threeQuarterSize} />
-        </g>
-      </svg>
-    </div>
+      {/* Visible edges */}
+      <line x1={0} y1={edgeSize * 0.25} x2={edgeSize * 0.5} y2={0} stroke={frontColor}/>
+      <line x1={edgeSize * 0.5} y1={0} x2={edgeSize} y2={edgeSize * 0.25} stroke={frontColor}/>
+      <line x1={0} y1={edgeSize * 0.25} x2={0} y2={edgeSize * 0.75} stroke={frontColor}/>
+      <line x1={edgeSize} y1={edgeSize * 0.25} x2={edgeSize} y2={edgeSize * 0.75} stroke={frontColor} strokeWidth={edgeSize*0.01} />
+    </svg>
   );
 };
 
 export default EdgeCube;
+

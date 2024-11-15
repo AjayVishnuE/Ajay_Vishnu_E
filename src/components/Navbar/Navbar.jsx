@@ -8,7 +8,7 @@ function Navbar(){
     //   this.style.backgroundColor = 'red';  // Change to any color you prefer
     // });
 
-    const redirectset = ["#Home","#About","#Works","#Resume","#Contact"];
+    const redirectset = ["#Home","#About","#Skills","#Projects","#Experience","#Contact"];
     return (
         <div className=" navbar">
             <div className="navbar-items-container">

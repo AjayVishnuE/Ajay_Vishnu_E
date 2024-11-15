@@ -58,6 +58,15 @@ function WhoAmI() {
           </svg>
         </div>
       </a>
+      <div className='edgecube-container-2'>
+            <EdgeCube 
+            edgeSize={250}
+            frontColor="#FFFFFF80"  // Black for visible edges
+            backColor="#FFFFFF1A"   // Red for hidden edges and diagonals
+            />
+      </div>
+      <div className='gradientcircle gradient-circle-div3'>
+      </div>
     </div>
     
   );
