@@ -1,6 +1,6 @@
 import './App.css';
 import { KnowMore, Navbar, OrgLogoSet } from './components';
-import { Skills, Spotlight, WhoAmI } from './containers';
+import { Projects, Skills, Spotlight, WhoAmI } from './containers';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <OrgLogoSet/>
         <WhoAmI/>
         <Skills/>
+        <Projects/>
         <KnowMore/>
     </div>
   );

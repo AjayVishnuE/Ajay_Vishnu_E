@@ -2,6 +2,8 @@ import OrganisationLogo1 from "../assets/OrganisationLogos/Mulearn Logo.png";
 import OrganisationLogo2 from "../assets/OrganisationLogos/CSI SB CCE Logo.png";
 import OrganisationLogo3 from "../assets/OrganisationLogos/RR Logo.png";
 import OrganisationLogo4 from "../assets/OrganisationLogos/CCE Logo.png";
+import Wrap from '../assets/Projects/WRAP-Web-Logo.png';
+import CSI from '../assets/Projects/CSI-WEB-Logo.png';
 import { GitHubIcon, HackeRankIcon, LinkedInIcon, SkillCss, SkillDjango, SkillFigma, SkillGit, SkillGithub, SkillHtml, SkillJs, SkillNetlify, SkillNode, SkillPostgres, SkillPostman, SkillPython, SkillReact, SkillSql, SkillVSCode } from "./imports";
 
 export const NavbarDataset = ["Home","About","skills","Projects","Experience","Contact"];
@@ -47,4 +49,27 @@ export const OtherSkillSetData = {
     POSTMAN:SkillPostman,
     VSCODE:SkillVSCode,
     FIGMA:SkillFigma
+}
+
+export const ProjectDetails = {
+    project1: {
+        name: "WRAP",
+        logo: Wrap,
+        description: "Created WRAP - An online platform for e-waste buyers, sellers and all other kinds of waste management industries. ",
+        highlights: [
+          "WRAP"
+        ],
+        githubLink: "https://github.com/AjayVishnuE/WRAP-Frontend",
+        websiteLink: "https://wrap-app.netlify.app"
+      },
+      project2: {
+        name: "CSI SB CCE Website",
+        logo: CSI,
+        description: "Developed the official Website of Computer Society of India, Student Branch of Christ College of Engineering, Irinjalakuda.",
+        highlights: [
+          "Computer Society of India"
+        ],
+        githubLink: "https://github.com/AjayVishnuE/CSI-SB-CCE",
+        websiteLink: "https://csicce.netlify.app"
+      },
 }

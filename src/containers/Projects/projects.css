@@ -1,0 +1,58 @@
+.Projects-overall-container{
+    flex-direction: column;
+}
+
+.Projects-container{
+
+}
+
+.project-details-div{
+    border: 1px solid var(--PortGrey2);
+    flex-direction: column;
+    padding: 50px 70px;
+    gap: 15px;
+}
+
+.project-logo{
+
+}
+
+.project-logo-img{
+    width: 170px;
+    height: auto;
+    object-fit: cover;
+}
+
+.projects-description{
+    color: var(--PortWhite, #FFF);
+    text-align: center;
+    font-family: "Red Hat Mono";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}
+
+.projects-button-container{
+    gap: 20px;
+}
+
+.projects-live-demo-button{
+    gap: 12px;
+    border-radius: 38.29px;
+    border: 1.276px solid var(--PortGrey, #CCC);
+    padding: 15px 28px;
+    color: var(--PortWhite, #FFF);
+    font-size: 20.029px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+
+.projects-git-button{
+    border-radius: 55%;
+    padding: 10px;
+    border: 1px solid var(--PortGreen);
+}
