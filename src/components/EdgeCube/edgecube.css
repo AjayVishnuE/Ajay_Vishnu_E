@@ -38,3 +38,22 @@
     bottom: -100px;
     right: 3%;
   }
+
+  .edgecube-container-3{
+    position: absolute;
+    z-index: 100;
+    top:calc(50% - 50px);
+  }
+
+  .edgecube-container-4{
+    position: absolute;
+    z-index: 100;
+    left: 50px;
+  }
+
+  .edgecube-container-5{
+    position: absolute;
+    z-index: 100;
+    right: -200px;
+    margin-top: 4px;
+  }

@@ -1,3 +1,62 @@
 .expandedu-overall-container{
+    margin: 50px 10% 80px 10%;
+    gap: 18%;
+    position: relative;
+}
+
+.expandedu-container{
+    flex-direction: column;
+}
+
+.exp-edu-heading{
+    margin: 30px 0;
+}
+
+.expandedu-item{
+    margin: 30px 0 0 0;
+    align-items: start;
+    flex-direction: column;
+}
+
+.expandedu-inside-title-containe{
+}
+
+.eit{
+    display: inline;
+    font-family: 'Red Hat Mono';
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.expandedu-inside-title1{
+    margin-right: 10px;
+}
+
+.expandedu-inside-title2{
+    color: var(--PortGreen);
+}
+
+.item-duration{
+    font-family: 'Red Hat Mono';
+    color: var(--PortGrey2);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
     
+}
+
+.item-description{
+    margin: 12px 0;
+    font-family: 'Red Hat Mono';    
+    font-size: 18px;
+
 }

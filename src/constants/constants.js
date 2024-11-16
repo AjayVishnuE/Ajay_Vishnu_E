@@ -83,7 +83,7 @@ export const EducationAndExperienceDetails = {
       Duration:"December 2023 - March 2024",
       Description:"Working as a Back End Developer helping MuLearn in their backend needs and database management throughout the internship period."
     },
-    Experince1:{
+    Experince2:{
       Title:"Web Developer",
       Organisation:"[tegain]",
       Duration:"March 2023 - March 2024",
@@ -98,7 +98,7 @@ export const EducationAndExperienceDetails = {
       Duration:"August 2020 - August 2024",
       Description:"Bachelor’s degree in Computer Science and Engineering at Christ College of Engineering, Irinjalakuda. CGPA - 8.48"
     },
-    Exducation1:{
+    Exducation2:{
       Instituition:"Airport Senior Secondary School",
       Course:"[CS]",
       Duration:"April 2017 - March 2019",

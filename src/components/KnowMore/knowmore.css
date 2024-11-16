@@ -1,0 +1,51 @@
+.knowmore-overall-container{
+    flex-direction: column;
+    margin:0 0 30px 0;
+    background-color: var(--PortGreen);
+    height: 400px;
+    gap: 50px;
+    position: relative;
+}
+
+.know-more-h{
+    background: linear-gradient(180deg, #000000 15.12%, rgba(0, 0, 0, 0) 138.37%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.knomore-description{
+    width: 70%;
+    color: var(--PortBlack);
+    font-family: 'Red Hat Mono';
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 28.86px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.knomore-resume-downloadd-btn{
+    width:298.53pxpx;
+    background-color: var(--PortBlack);
+    height:58.98pxpx;
+    padding: 16.49px 28.27px 16.49px 28.27px;
+    gap: 12px;
+    border-radius: 38.29px;
+    opacity: 0px;
+}
+
+.knomore-resume-downloadd-btn > p{
+    font-family: 'Red Hat Mono';
+    color:var(--PortGreen);
+    font-size: 20.03px;
+    font-weight: 500;
+    line-height: 26.5px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
