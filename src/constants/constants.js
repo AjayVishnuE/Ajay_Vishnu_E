@@ -4,7 +4,7 @@ import OrganisationLogo3 from "../assets/OrganisationLogos/RR Logo.png";
 import OrganisationLogo4 from "../assets/OrganisationLogos/CCE Logo.png";
 import Wrap from '../assets/Projects/WRAP-Web-Logo.png';
 import CSI from '../assets/Projects/CSI-WEB-Logo.png';
-import { GitHubIcon, HackeRankIcon, LinkedInIcon, SkillCss, SkillDjango, SkillFigma, SkillGit, SkillGithub, SkillHtml, SkillJs, SkillNetlify, SkillNode, SkillPostgres, SkillPostman, SkillPython, SkillReact, SkillSql, SkillVSCode } from "./imports";
+import { GitHubIcon, HackeRankIcon, LinkedInIcon, SkillCss, SkillDjango, SkillFigma, SkillGit, SkillGithub, SkillHtml, SkillJs, SkillNetlify, SkillNode, SkillPostgres, SkillPostman, SkillPython, SkillReact, SkillSql, SkillVSCode, li, insta, me, fb, yt, x } from "./imports";
 
 export const NavbarDataset = ["Home","About","skills","Projects","Experience","Contact"];
 
@@ -21,7 +21,7 @@ export const WhoAmIData = {
     DescriptionParagraph2:"I have been recognized as one of the Top 100 Coders, and I take pride in the positive feedback I've received from both clients and colleagues. Looking forward, I believe that a great developer not only fixes codes but also contributes to solving the real world problems.",
     Highlights:["new challenges", "high-quality results", "Top 100 Coders"],
     KeyTerms1 : ["01", "YEARS OF", "EXPERIENCE"],
-    KeyTerms2 : ["20", "COMPLETED", "WORKS"],
+    KeyTerms2 : ["20", "COMPLETED", "PROJECTS"],
     GitHub:[GitHubIcon,"https://github.com/AjayVishnuE"],
     HackerRank:[HackeRankIcon,"https://www.hackerrank.com/profile/ajayvishnu121"],
     LinkedIn:[LinkedInIcon,"https://www.linkedin.com/in/ajayvishnue/"]
@@ -78,15 +78,21 @@ export const EducationAndExperienceDetails = {
   Experience: {
     Title:"Experience",
     Experince1:{
-      Title:"Back End Developer",
-      Organisation:"[GTech µLearn]",
-      Duration:"December 2023 - March 2024",
-      Description:"Working as a Back End Developer helping MuLearn in their backend needs and database management throughout the internship period."
+      Title:"Freelance Developer",
+      Organisation:" ",
+      Duration:"May 2024 - Till Date",
+      Description:"Working as a Website Developer and developing various frontend and backend applications along with learning new things."
     },
     Experince2:{
+      Title:"Back End Developer",
+      Organisation:"[GTech µLearn]",
+      Duration:"November 2023 - April 2024",
+      Description:"Working as a Back End Developer helping MuLearn in their backend needs and database management throughout the internship period."
+    },
+    Experince3:{
       Title:"Web Developer",
       Organisation:"[tegain]",
-      Duration:"March 2023 - March 2024",
+      Duration:"April 2022 - April 2023",
       Description:"Working as a Back End Developer helping MuLearn in their backend needs and database management throughout the internship period."
     }
   },  
@@ -98,11 +104,29 @@ export const EducationAndExperienceDetails = {
       Duration:"August 2020 - August 2024",
       Description:"Bachelor’s degree in Computer Science and Engineering at Christ College of Engineering, Irinjalakuda. CGPA - 8.48"
     },
-    Exducation2:{
+    Education2:{
       Instituition:"Airport Senior Secondary School",
       Course:"[CS]",
       Duration:"April 2017 - March 2019",
-      Description:"Completed my Higher Secondary (Class 12) education at Airport Senior Secondary School, Calicut Airport, Computer Science."
+      Description:"Completed my Higher Secondary (Class XII) education at Airport Senior Secondary School, Calicut Airport, Computer Science."
+    },
+    Education3:{
+      Instituition:"Airport Senior Secondary School",
+      Course:"[CS]",
+      Duration:"April 2017 - March 2019",
+      Description:"Completed my High School (Class X) education at Airport Senior Secondary School, Calicut Airport, Computer Science."
     }
   },
 }
+
+export const ConnectSectionData = {
+  email:"ajayvishnue@gmail.com",
+  phone_conutry_code:"+91",
+  phone:"7558031283",
+  linkedin:{logo: li, link:"https://www.linkedin.com/in/ajayvishnue/"},
+  instagram:{logo: insta, link:"https://www.instagram.com/ajay_vishnu_/"},
+  medium:{logo: me, link:"https://medium.com/@ajayvishnu121"},
+  faceboook:{logo: fb, link:"https://www.facebook.com/ajay.vishnu.52090/"},
+  youtube:{logo: yt, link:"https://www.youtube.com/@ajayvishnue"},
+  x:{logo: x, link:"https://twitter.com/ajayvis"}
+}    

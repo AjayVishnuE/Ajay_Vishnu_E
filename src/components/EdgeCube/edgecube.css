@@ -27,16 +27,16 @@
   .edgecube-container-1{
     position: absolute;
     z-index: 100;
-    left: 100px;
+    left: 110px;
     margin-left: 0px;
-    margin-top: 280px;
+    margin-top: 250px;
   }
 
   .edgecube-container-2{
     position: absolute;
     z-index: 100;
-    bottom: -100px;
-    right: 3%;
+    top:45%;
+    right: 7%;
   }
 
   .edgecube-container-3{

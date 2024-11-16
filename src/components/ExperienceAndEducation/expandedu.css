@@ -1,6 +1,7 @@
 .expandedu-overall-container{
-    margin: 50px 10% 80px 10%;
+    padding: 80px 10%;
     gap: 18%;
+    z-index: 10px;
     position: relative;
 }
 
@@ -18,8 +19,7 @@
     flex-direction: column;
 }
 
-.expandedu-inside-title-containe{
-}
+/* .expandedu-inside-title-containe{} */
 
 .eit{
     display: inline;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './expandedu.css';
 import { EducationAndExperienceDetails } from '../../constants/constants';
-import { EdgeCube } from '../../components';
+import { EdgeCube } from '..';
 
 function ExperienceAndEducation() {
   return (

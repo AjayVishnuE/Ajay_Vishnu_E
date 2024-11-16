@@ -1,0 +1,235 @@
+.contact-overall-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover, auto, auto;
+    background-repeat: no-repeat, repeat, repeat;
+    background-position: center; 
+    padding-top: 20px;
+}
+
+.contact-h{
+}
+
+.contact-c1{
+    margin: 30px 0 5px 0;
+    padding: 20px;
+    font-family: "Red Hat Mono";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.contact-c2{
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Red Hat Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 24px */
+}
+
+.contact-email{
+    margin: 30px 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Red Hat Mono";
+    font-size: 55.642px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 66.642px */
+}
+
+.contact-phone{
+    margin: 0;
+    padding: 10px 0 30px 0;
+    font-family: "Red Hat Mono"; 
+    font-size: 65.683px;
+    color: transparent;
+    font-style: normal;
+    text-decoration-skip-ink: none;
+    font-weight: 500;
+    line-height: 100%; 
+}
+
+.cwm-phone-label-1 {
+    -webkit-text-stroke: 0.5px var(--PortGreen); 
+}
+
+.cwm-phone-label-2 {
+    -webkit-text-stroke: 0.5px var(--PortWhite); 
+}
+
+.contact-logos-container{
+    margin: 0;
+    padding: 0;
+    height:65px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.contact-logos-container > a{
+    height: 65px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.color-change-svg path {
+    transition: fill 0.3s ease, stroke 0.3s ease; 
+}
+
+.color-change-svg:hover path {
+    fill: var(--PortGreen); 
+    stroke:  var(--PortGreen); 
+}
+
+.copyrights-line{
+    color: var(--PortWhite);
+    text-align: center;
+    font-family: "Red Hat Mono";
+    font-size: 15px;
+    padding: 40px 0 20px 0;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; 
+}
+
+.p-mono-text{
+    font-family: "Red Hat Mono";
+
+}
+
+.copyrights-name{
+    color: #888;
+    font-family: "Red Hat Mono";
+    /* font-family: Red Hat Display; */
+}
+
+.copyrights-name:hover{
+    color:var(--PortGreen)
+}
+
+@media (max-width:1200px) {
+    .contact-h{
+        font-size: 40px;
+        margin: 60px 0 30px 0;
+        padding: 0;
+    }
+
+    .contact-c1{
+        font-size: 25px;
+        padding: 0 0 20px 0;
+    }
+
+    .contact-c2{
+        font-size: 18px;
+    }
+
+    .contact-email{
+        margin: 20px;
+        font-size: 50px;
+    }
+
+    .contact-phone{
+        font-size: 55px;
+    }
+
+    .contact-logos-container{
+        gap: 60px;
+        height: 60px;
+        margin-bottom: 30px;
+    }
+
+    .contact-logos-container > a > svg{
+        margin-top: 2px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .copyrights-line{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:900px) {
+    .contact-h{
+        margin: 50px 0 25px 0;
+        font-size: 35px;
+    }
+
+    .contact-c1{
+        font-size: 22px;
+    }
+
+    .contact-c2{
+        font-size:17px ;
+    }
+
+    .contact-email{
+        font-size:42px;
+        margin: 30px 0;
+    }
+
+    .contact-phone{
+        font-size:50px;
+    }
+
+    .contact-logos-container{
+        height: 45px;
+        margin-bottom: 25px;
+        gap:55px;
+    }
+
+    .contact-logos-container > a > svg{
+        height: 45px;
+        margin-top: 10px;
+        width: 45px;
+    }
+}
+
+@media (max-width:500px) {
+    .contact-h{
+        margin: 50px 0 25px 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .contact-c1{
+        text-align: center;
+        font-size: 17px;
+        padding: 0 0 10px 0;
+    }
+
+    .contact-c2{
+        font-size: 12px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .contact-email{
+        font-size: 150%;
+    }
+
+    .contact-phone{
+        font-size: 40px;
+    }
+
+    .contact-logos-container{
+        gap: 12px;
+        height: 40px;
+    }
+
+    .contact-logos-container > a > svg{
+        width: 40px;
+        margin-top: 12px;
+        height: 40px;
+    }
+}

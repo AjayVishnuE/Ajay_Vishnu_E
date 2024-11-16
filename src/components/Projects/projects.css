@@ -1,7 +1,6 @@
 .Projects-overall-container{
     flex-direction: column;
-    margin: 80px 10% 0 10%;
-
+    padding: 80px 10% 0 10%;
 }
 
 .Projects-container{

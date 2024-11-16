@@ -46,7 +46,7 @@
     letter-spacing: -1.348px;
 }
 
-.key-terms-insider-insider{}
+/* .key-terms-insider-insider{} */
 
 .ktl{
     color: var(--PortWhite, #FFF);
@@ -70,14 +70,14 @@
 }
 
 .key-terms-line1-1{
-    font-size:  25.88px;
+    font-size:  29.68px;
     font-weight: 400;
     letter-spacing: -0.388px;
 }
 
 .key-terms-line2-1{
-    font-size:  43.134px;
-    font-weight:  500;
+    font-size:  33.134px;
+    font-weight:  700;
     letter-spacing: -0.647px;
 }
 

@@ -1,6 +1,6 @@
 import './App.css';
-import { KnowMore, Navbar, OrgLogoSet } from './components';
-import { Experience, Projects, Skills, Spotlight, WhoAmI } from './containers';
+import { KnowMore, WhoAmI, Navbar, OrgLogoSet, Experience, Projects, Skills, } from './components';
+import { Contact,  Section2,  Section3,  Spotlight } from './containers';
 
 function App() {
   return (
@@ -8,11 +8,10 @@ function App() {
         <Navbar/>
         <Spotlight/>
         <OrgLogoSet/>
-        <WhoAmI/>
-        <Skills/>
-        <Projects/>
-        <Experience/>
+        <Section2/>
+        <Section3/>
         <KnowMore/>
+        <Contact/>
     </div>
   );
 }

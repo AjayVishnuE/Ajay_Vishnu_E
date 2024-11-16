@@ -1,27 +1,30 @@
 .gradientcircle{
-    width: 1400px;
-    height: 1400px;
-    flex-shrink: 0;
+    width: 1200px;
+    height: 1200px;
     border-radius: 1400px;
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     opacity: 0.1;    
-    overflow-x:hidden ;
-    overflow-y:hidden ;
     background: radial-gradient(50% 50% at 50% 50%, #8FFF00 0%, rgba(143, 255, 0, 0.00) 100%);
 }
 
 .gradient-circle-div1{
-    top: -600px;
-    right: -600px;
+    top: -550px;
+    right: -550px;
 }
 
 .gradient-circle-div2{
-    bottom: -700px;
-    left: -700px;
+    bottom: -650px;
+    left: -600px;
 }
 
 .gradient-circle-div3{
-    bottom:-900px;
-    right: -700px;
+    top: 270px;
+    right: -550px;
+}
+
+.gradient-circle-div4{
+    top: 0px;
+    left: -600px;
+    overflow: visible;
 }

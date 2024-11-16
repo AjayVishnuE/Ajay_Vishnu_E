@@ -30,3 +30,18 @@
     color: var(--PortGreen);    
     font-family: "Red Hat Mono";
 }
+
+.hover-effect-only path{
+    transition: fill 0.3s ease, stroke 0.3s ease; 
+
+}
+
+.hover-effect-only:hover path {
+    fill: var(--PortGreen); 
+    stroke:  var(--PortGreen); 
+}
+
+.hover-effect-stroke-only:hover path {
+    transition: fill 0.3s ease, stroke 0.3s ease; 
+    stroke:  var(--PortGreen);  
+}
