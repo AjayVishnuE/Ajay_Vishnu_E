@@ -8,6 +8,7 @@
 .skills-container{
     flex-wrap: wrap;
     gap: 15%;
+    margin: 30px 0 0 0;
 }
 
 .skills-category {

@@ -73,3 +73,36 @@ export const ProjectDetails = {
         websiteLink: "https://csicce.netlify.app"
       },
 }
+
+export const EducationAndExperienceDetails = {
+  Experience: {
+    Title:"Experience",
+    Experince1:{
+      Title:"Back End Developer",
+      Organisation:"[GTech µLearn]",
+      Duration:"December 2023 - March 2024",
+      Description:"Working as a Back End Developer helping MuLearn in their backend needs and database management throughout the internship period."
+    },
+    Experince1:{
+      Title:"Web Developer",
+      Organisation:"[tegain]",
+      Duration:"March 2023 - March 2024",
+      Description:"Working as a Back End Developer helping MuLearn in their backend needs and database management throughout the internship period."
+    }
+  },  
+  Education: {
+    Title:"Education",
+    Education1:{
+      Instituition:"Christ College of Engineering",
+      Course:"[B.Tech]",
+      Duration:"August 2020 - August 2024",
+      Description:"Bachelor’s degree in Computer Science and Engineering at Christ College of Engineering, Irinjalakuda. CGPA - 8.48"
+    },
+    Exducation1:{
+      Instituition:"Airport Senior Secondary School",
+      Course:"[CS]",
+      Duration:"April 2017 - March 2019",
+      Description:"Completed my Higher Secondary (Class 12) education at Airport Senior Secondary School, Calicut Airport, Computer Science."
+    }
+  },
+}
