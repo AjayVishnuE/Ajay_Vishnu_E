@@ -1,5 +1,5 @@
 .Spotlight-overall-container{
-    /* background-image: url(../../assets/Spotlight/bg.png); */
+    background-image: url(../../assets/Spotlight/bg.png);
     margin-top: 10px;    
     width: 100vw;
     max-width: 100%; 
@@ -105,7 +105,7 @@
 .spotlight-roles-container{
     gap: 15px;
     position: absolute;
-    bottom:80px;
+    top: 88vh;
 }
 
 .spotlight-roles{

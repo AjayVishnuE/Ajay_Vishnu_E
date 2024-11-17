@@ -2,6 +2,7 @@
     width: 1200px;
     height: 1200px;
     border-radius: 1400px;
+    overflow-x: hidden;
     position: absolute;
     z-index: 0;
     opacity: 0.1;    
@@ -9,12 +10,12 @@
 }
 
 .gradient-circle-div1{
-    top: -550px;    
-    left: 50%;
+    top: -450px;    
+    right: -500px;
 }
 
 .gradient-circle-div2{
-    bottom: -650px;
+    top: 35vh;
     left: -600px;
 }
 

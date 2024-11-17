@@ -6,7 +6,7 @@ import Wrap from '../assets/Projects/WRAP-Web-Logo.png';
 import CSI from '../assets/Projects/CSI-WEB-Logo.png';
 import { GitHubIcon, HackeRankIcon, LinkedInIcon, SkillCss, SkillDjango, SkillFigma, SkillGit, SkillGithub, SkillHtml, SkillJs, SkillNetlify, SkillNode, SkillPostgres, SkillPostman, SkillPython, SkillReact, SkillSql, SkillVSCode, li, insta, me, fb, yt, x } from "./imports";
 
-export const NavbarDataset = ["Home","About","skills","Projects","Experience","Contact"];
+export const NavbarDataset = ["Home","About","Skills","Projects","Experience","Contact"];
 
 export const SpotlightData = {
     name: "Ajay Vishnu E",
