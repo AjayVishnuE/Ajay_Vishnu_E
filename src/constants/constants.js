@@ -10,7 +10,7 @@ export const NavbarDataset = ["Home","About","skills","Projects","Experience","C
 
 export const SpotlightData = {
     name: "Ajay Vishnu E",
-    desription : "Full Stack Developer",
+    description : "Full Stack Developer",
     roles : ['Front End Development','Back End Development','Competitive Coding','Problem Solving']
 }
 
@@ -68,6 +68,46 @@ export const ProjectDetails = {
         description: "Developed the official Website of Computer Society of India, Student Branch of Christ College of Engineering, Irinjalakuda.",
         highlights: [
           "Computer Society of India"
+        ],
+        githubLink: "https://github.com/AjayVishnuE/CSI-SB-CCE",
+        websiteLink: "https://csicce.netlify.app"
+      },
+      project3: {
+        name: "Django Website",
+        logo: OrganisationLogo4,
+        description: "Developed the official Website of Computer Society of India, Student Branch of Christ College of Engineering, Irinjalakuda.",
+        highlights: [
+          "Developed the official Website of"
+        ],
+        githubLink: "https://github.com/AjayVishnuE/CSI-SB-CCE",
+        websiteLink: "https://csicce.netlify.app"
+      },
+      project4: {
+        name: "html Website",
+        logo: OrganisationLogo4,
+        description: "Developed the official Website of Computer Society of India, Student Branch of Christ College of Engineering, Irinjalakuda.",
+        highlights: [
+          " Branch of Christ College of Engineering, Irinjalak"
+        ],
+        githubLink: "https://github.com/AjayVishnuE/CSI-SB-CCE",
+        websiteLink: "https://csicce.netlify.app"
+      },
+      project5: {
+        name: "css Website",
+        logo: OrganisationLogo4,
+        description: "Developed the official Website of Computer Society of India, Student Branch of Christ College of Engineering, Irinjalakuda.",
+        highlights: [
+          "Student Branch of Christ"
+        ],
+        githubLink: "https://github.com/AjayVishnuE/CSI-SB-CCE",
+        websiteLink: "https://csicce.netlify.app"
+      },
+      project6: {
+        name: "hello Website",
+        logo: OrganisationLogo4,
+        description: "Developed the official Website of Computer Society of India, Student Branch of Christ College of Engineering, Irinjalakuda.",
+        highlights: [
+          "official Website"
         ],
         githubLink: "https://github.com/AjayVishnuE/CSI-SB-CCE",
         websiteLink: "https://csicce.netlify.app"

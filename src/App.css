@@ -37,8 +37,12 @@
 }
 
 .hover-effect-only:hover path {
-    fill: var(--PortGreen); 
+    fill: var(--PortGreen);     
     stroke:  var(--PortGreen); 
+}
+
+.hover-effect-path-only:hover path {
+    fill: var(--PortGreen); 
 }
 
 .hover-effect-stroke-only:hover path {

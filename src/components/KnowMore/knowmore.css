@@ -37,6 +37,10 @@
     opacity: 0px;
 }
 
+.knomore-resume-downloadd-btn:hover{
+    background-color: #000000fa;
+}
+
 .knomore-resume-downloadd-btn > p{
     font-family: 'Red Hat Mono';
     color:var(--PortGreen);
