@@ -58,3 +58,17 @@
     right: -200px;
     margin-top: 4px;
   }
+
+  @media (max-width: 1200px) {
+    .edgecube-container-3{
+      display: none;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    
+  }
+
+  @media (max-width: 1200px) {
+    
+  }

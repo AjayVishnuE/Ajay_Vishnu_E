@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './projects.css';
 import { ProjectDetails } from '../../constants/constants';
 
@@ -17,8 +17,18 @@ const getHighlightedText = (text, keywords) => {
 
 function Projects() {
   const [currentPage, setCurrentPage] = useState(0);
+  const [projectsPerPage, setProjectsPerPage] = useState(window.innerWidth > 800 ? 2 : 1);
   const projectsArray = Object.values(ProjectDetails);
-  const totalPages = Math.ceil(projectsArray.length / 2);
+  const totalPages = Math.ceil(projectsArray.length / projectsPerPage);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setProjectsPerPage(window.innerWidth > 800 ? 2 : 1);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const nextPage = () => {
     setCurrentPage((prev) => (prev + 1) % totalPages);
@@ -29,8 +39,8 @@ function Projects() {
   };
 
   const getCurrentProjects = () => {
-    const startIndex = currentPage * 2;
-    return projectsArray.slice(startIndex, startIndex + 2);
+    const startIndex = currentPage * projectsPerPage;
+    return projectsArray.slice(startIndex, startIndex + projectsPerPage);
   };
 
   return (
@@ -40,7 +50,7 @@ function Projects() {
         <button 
           className='carousel-button left'
           onClick={prevPage}
-          disabled={projectsArray.length <= 2}
+          disabled={currentPage === 0}
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path d="M15 18L9 12L15 6" stroke="#FFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -91,7 +101,7 @@ function Projects() {
         <button 
           className='carousel-button right'
           onClick={nextPage}
-          disabled={projectsArray.length <= 2}
+          disabled={currentPage === totalPages - 1}
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path d="M9 18L15 12L9 6" stroke="#FFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -103,3 +113,4 @@ function Projects() {
 }
 
 export default Projects;
+
