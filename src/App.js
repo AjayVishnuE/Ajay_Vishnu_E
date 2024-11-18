@@ -1,15 +1,18 @@
 import './App.css';
-import { KnowMore, WhoAmI, Navbar, OrgLogoSet, Experience, Projects, Skills, } from './components';
-import { Contact,  Section2,  Section3,  Spotlight } from './containers';
+import { KnowMore,  Navbar, OrgLogoSet,  GradientCircle, } from './components';
+import { Contact, WhoAmI, Experience, Projects, Skills, Spotlight } from './containers';
 
 function App() {
   return (
     <div className="App">
+        <GradientCircle/>
         <Navbar/>
         <Spotlight/>
         <OrgLogoSet/>
-        <Section2/>
-        <Section3/>
+        <WhoAmI/>
+        <Skills/>
+        <Projects/>
+        <Experience/>
         <KnowMore/>
         <Contact/>
     </div>

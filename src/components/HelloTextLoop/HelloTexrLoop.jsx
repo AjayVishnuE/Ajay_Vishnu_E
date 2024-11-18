@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 function HelloTextLoop(){
     const hello = ["നമസ്ക്കാരം!","HOLA!","HELLO!","வணக்கம்!","नमस्ते!","مرحبًا!"];
     return(
-        <div className='overall-container'>
+        <div className='flex-center overall-container'>
             <div className="typewriter-container">
                 <span>
                     <Typewriter

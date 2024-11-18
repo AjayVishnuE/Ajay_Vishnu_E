@@ -1,6 +1,6 @@
 .Spotlight-overall-container{
     background-image: url(../../assets/Spotlight/bg.png);
-    margin-top: 10px;    
+    margin-top: 20px;    
     width: 100vw;
     max-width: 100%; 
     height: 100vh;
@@ -127,4 +127,63 @@
     font-weight: 800;
     line-height: 100%; /* 28.267px */
     letter-spacing: -0.424px;
+}
+
+
+@media (max-width:1500px) {
+    .spotlight-roles{
+        font-size: 22.267px;
+    }
+}
+
+@media (max-width:1200px) and (min-height:1000px){
+    .Spotlight-overall-container{
+        background-image: url(../../assets/Spotlight/bg-iPad.png);
+        background-size: cover, auto, auto;
+        background-repeat: no-repeat;
+        background-position: center, left center, left center ; 
+    }
+}
+
+@media (max-width:1200px) {
+    .title-text{
+        font-size: 70px;
+    }
+
+    .title-description{
+        font-size: 45px;
+        padding-top: 10px;
+    }
+
+    .spotlight-download-button{
+        height: 55px;
+        width: 200px;
+    }
+
+    .spotlight-download-button > p , .spotlight-contact-button > p{
+        font-size:17.029px;
+    }
+
+    .spotlight-download-button > svg {
+        height: 18px;
+    }
+    
+    .spotlight-contact-button > svg{
+        height: 14px;
+    }
+
+    .spotlight-contact-button{
+        height: 56px;
+        width: 200px;
+    }
+
+    .spotlight-roles{
+        font-size: 18.267px;
+    }
+}
+
+@media (max-width:900px) {
+    .spotlight-roles{
+        font-size: 15.267px;
+    }
 }

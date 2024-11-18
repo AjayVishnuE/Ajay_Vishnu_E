@@ -2,6 +2,7 @@
     padding-top: 80px;
     width: 100%;
     flex-direction: column;
+    overflow: visible;
     position: relative;
 }
 
@@ -27,6 +28,7 @@
 .whoami-key-terms-container{
     flex-direction: row;
     gap: 10%;
+    flex-wrap: wrap;
     width: 90%;
 }
 

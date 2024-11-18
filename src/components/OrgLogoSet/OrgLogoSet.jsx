@@ -1,26 +1,31 @@
-import React from 'react'
-import './orglogoset.css'
-import { OrganisationLogos } from '../../constants/constants'
-import EdgeCube from '../EdgeCube/EdgeCube'
-
+import React, { useState, useEffect } from 'react';
+import './orglogoset.css';
+import { OrganisationLogos } from '../../constants/constants';
+import EdgeCube from '../EdgeCube/EdgeCube';
 
 function OrgLogoSet() {
-  return (
-    <div className='flex-center orglogoset-container'>
-        {OrganisationLogos.map((logo, index) => (
-            <div className='flex-center orglogo-container'>
-                <img className='orglogo-img' src={logo} key={index} alt={`Organisation Logo ${index}`} />
-            </div>
-        ))}
-        <div className='edgecube-container-1'>
-            <EdgeCube 
-            edgeSize={130}
-            frontColor="#FFFFFF80"  // Black for visible edges
-            backColor="#FFFFFF1A"   // Red for hidden edges and diagonals
-            />
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 900);
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    const logosToDisplay = isMobile ? [...OrganisationLogos, ...OrganisationLogos] : OrganisationLogos;
+
+    return (
+        <div className='flex-center orglogoset-container'>
+            {logosToDisplay.map((logo, index) => (
+                <div key={index} className='flex-center orglogo-container'>
+                    <img className='orglogo-img' src={logo} alt={`Organisation Logo ${index}`} />
+                </div>
+            ))}
         </div>
-    </div>
-  )
+    );
 }
 
-export default OrgLogoSet
+export default OrgLogoSet;

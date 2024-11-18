@@ -1,6 +1,7 @@
 import React from 'react'
 import './whoami.css'
 import { WhoAmIData } from '../../constants/constants'
+import { EdgeCube } from '../../components'
 import pdfFile from '../../assets/Resume Download/Resume_Ajay_Vishnu_E.pdf'
 
 const getHighlightedText = (text, keywords) => {
@@ -57,6 +58,20 @@ function WhoAmI() {
           </svg>
         </div>
       </a>
+      <div className='edgecube-container-1'>
+              <EdgeCube 
+              edgeSize={130}
+              frontColor="#FFFFFF80"  
+              backColor="#FFFFFF1A"   
+              />
+            </div>
+      <div className='edgecube-container-2'>
+            <EdgeCube 
+            edgeSize={250}
+            frontColor="#FFFFFF80" 
+            backColor="#FFFFFF1A"  
+            />
+      </div>
 
     </div>
     

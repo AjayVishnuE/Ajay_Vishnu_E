@@ -12,7 +12,7 @@ const EdgeCube = ({ edgeSize, frontColor = "#FFFFFF80", backColor = "#FFFFFF1A" 
     if (isHovered) {
       interval = setInterval(() => {
         setToggle((prev) => !prev);
-      }, 700); // Change color every 500ms (adjust as needed)
+      }, 400); // Change color every 500ms (adjust as needed)
     } else {
       clearInterval(interval);
     }

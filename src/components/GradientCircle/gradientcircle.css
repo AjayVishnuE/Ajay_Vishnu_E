@@ -10,8 +10,8 @@
 }
 
 .gradient-circle-div1{
-    top: -450px;    
-    right: -500px;
+    top: -75vh;    
+    right: -600px;
 }
 
 .gradient-circle-div2{
@@ -20,12 +20,21 @@
 }
 
 .gradient-circle-div3{
-    top: 270px;
-    right: -550px;
+    top: 130vh;
+    right: -600px;
 }
 
 .gradient-circle-div4{
-    top: 0px;
+    top: 230vh;
     left: -600px;
-    overflow: visible;
+}
+
+.gradient-circle-div5{
+    top: 330vh;
+    right: -600px;
+}
+
+.gradient-circle-div6{
+    top: 430vh;
+    left: -600px;
 }
