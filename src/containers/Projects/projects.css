@@ -137,7 +137,12 @@
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1200px) {
+    .Projects-overall-container{
+      flex-direction: column;
+      z-index: 500;
+      padding: 80px 5% 0 5%;
+  }
     .Projects-container{
       width: 100%;
       margin: 60px 0;
@@ -147,12 +152,14 @@
   }
 
     .project-details-div {
-        width: 78%; /* Each project detail takes full width of the container */
-        min-width: 78%; /* Ensure it doesn't shrink below the viewport width */
-        max-width: 78%; /* Prevent it from exceeding the viewport width */
-        padding: 30px 10px; /* Adjust padding for smaller screens */
-        transition: transform 0.3s ease; /* Smooth transition on animation */
+        min-width: 75%; 
+        padding: 30px 10px; 
+        transition: transform 0.3s ease; 
     }
 }
 
-  
+@media (max-width: 800px) {
+  .Projects-overall-container{
+    padding: 80px 1% 0 1%;
+}
+}

@@ -21,14 +21,28 @@ span{
     letter-spacing: -0.3px;
 }
 
-@media (max-width:1500px) {
+@media (max-width:1450px) {
     .overall-container{
+        padding-top: 50px;
+    }
+}
+@media (max-width:2600px) and (min-height:1000px){
+    .overall-container{
+        padding-top: 12%;
     }
 }
 
-@media (max-width:1200px) and (min-height:1000px){
+@media (max-width:1500px) and (min-height:1000px){
     .overall-container{
-        padding-top: 18%;
+        padding-top: 19%;
+    }
+}
+
+
+
+@media (max-width:750px) and (min-height:1000px){
+    .overall-container{
+        padding-top: 40%;
     }
 }
 /* ipad air

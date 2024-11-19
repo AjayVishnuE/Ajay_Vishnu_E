@@ -17,13 +17,13 @@ const getHighlightedText = (text, keywords) => {
 
 function Projects() {
   const [currentPage, setCurrentPage] = useState(0);
-  const [projectsPerPage, setProjectsPerPage] = useState(window.innerWidth > 800 ? 2 : 1);
+  const [projectsPerPage, setProjectsPerPage] = useState(window.innerWidth > 1200 ? 2 : 1);
   const projectsArray = Object.values(ProjectDetails);
   const totalPages = Math.ceil(projectsArray.length / projectsPerPage);
 
   useEffect(() => {
     const handleResize = () => {
-      setProjectsPerPage(window.innerWidth > 800 ? 2 : 1);
+      setProjectsPerPage(window.innerWidth > 1200 ? 2 : 1);
     };
 
     window.addEventListener('resize', handleResize);

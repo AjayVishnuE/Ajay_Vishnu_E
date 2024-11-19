@@ -7,7 +7,8 @@ function KnowMore() {
   return (
     <div className='flex-center knowmore-overall-container'>
       <p className='p-heading know-more-h'>WANT TO KNOW MORE?</p>
-      <p className='knomore-description'>This is the complete me, download my resume and find all about me. Change this content accordingly. Just placing the content in order to look great! Put upto 3 lines so that it looks aesthetic.</p>
+      <p className='knowmore-description'>
+      Discover my passion for building seamless and engaging digital experiences. Curious about my journey? Download my resume below and let’s create something amazing together!        </p>
       <a className='flex-center knomore-resume-downloadd-btn' href={pdfFile} download="Resume Ajay Vishnu E" target='_blank'>
           <p>DOWNLOAD MY RESUME</p>
           <svg className='downloadicon' xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

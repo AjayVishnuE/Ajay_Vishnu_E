@@ -1,20 +1,20 @@
 .orglogoset-container {
-    padding: 40px 5% 20px 5%; /* Apply padding normally */
-    overflow: visible; /* Hide anything outside the container */
+    padding: 40px 5% 20px 5%;
+    overflow: visible; 
     position: relative;
-    display: flex; /* Ensures logos are in a line */
-    white-space: nowrap; /* Prevents wrapping of child elements */
-    flex-wrap: nowrap; /* Additional assurance against wrapping */
+    display: flex;
+    white-space: nowrap; 
+    flex-wrap: nowrap; 
 }
 
 .orglogo-container {
     min-width: 220px;
     height: 80px;
     display: inline-flex;
-    border: 1px solid var(--PortGrey2); /* Align logos in a row */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    background: #000; /* Background color for logos */
+    border: 1px solid var(--PortGrey2); 
+    justify-content: center;
+    align-items: center; 
+    background-color: transparent;
 }
 
 .orglogo-img {
@@ -25,19 +25,19 @@
 
 @media (max-width: 900px) {
     .orglogoset-container {
-        padding: 40px 0; /* Remove side padding */
-        animation: scroll-logos 30s linear infinite; 
-        width: fit-content;/* Adjust time for speed */
+        padding: 40px 0; 
+        animation: scroll-logos 10s linear infinite; 
+        width: fit-content;
     }
 
     .orglogo-container {
         min-width: 220px;
         height: 80px;
         display: inline-flex;
-        border: 1px solid var(--PortGrey2); /* Align logos in a row */
-        justify-content: center; /* Center content horizontally */
-        align-items: center; /* Center content vertically */
-        background: #000; /* Background color for logos */
+        border: 1px solid var(--PortGrey2); 
+        justify-content: center;
+        align-items: center; 
+        background: #000; 
     }
     
     .orglogo-img {
@@ -46,10 +46,9 @@
         object-fit: contain;
     }
     
-    /* Keyframes for scrolling effect, ensuring a continuous loop */
     @keyframes scroll-logos {
         from { transform: translateX(0); }
-        to { transform: translateX(-50%); } /* Scrolls half the width for seamless looping */
+        to { transform: translateX(-50%); } 
     }
 }
 
@@ -57,7 +56,8 @@
     .orglogo-container {
         min-width: 160px;
         height: 70px;
-        background-color: transparent;
+        background: #000; 
+
     }
     
     .orglogo-img {

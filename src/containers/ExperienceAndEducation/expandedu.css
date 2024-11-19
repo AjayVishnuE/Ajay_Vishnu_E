@@ -2,10 +2,12 @@
     padding: 80px 10%;
     gap: 18%;
     z-index: 10px;
+    overflow: visible;
     position: relative;
 }
 
 .expandedu-container{
+    overflow: visible;
     flex-direction: column;
 }
 
@@ -58,5 +60,40 @@
     margin: 12px 0;
     font-family: 'Red Hat Mono';    
     font-size: 18px;
+}
 
+@media (max-width:1500px) {
+    .expandedu-overall-container{
+        gap: 10%;
+        padding: 80px 7%;
+    }
+}
+
+
+@media (max-width:1360px) {
+    .expandedu-overall-container{
+        gap: 5%;
+    }
+}
+
+@media (max-width:1200px) {
+    .expandedu-overall-container{
+        flex-direction: column;
+        padding: 80px 20%;
+        justify-content: left;
+    }   
+    .expandedu-container{
+        justify-content: left;
+    }
+    .eit{
+        text-wrap:nowrap;
+    }
+}
+
+
+@media (max-width:800px) {
+    .expandedu-overall-container{
+        padding: 80px 10%;
+        flex-direction: column;
+    }
 }

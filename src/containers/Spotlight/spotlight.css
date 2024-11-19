@@ -105,6 +105,7 @@
 .spotlight-roles-container{
     gap: 15px;
     position: absolute;
+    padding: 0 5%;
     top: 88vh;
 }
 
@@ -114,7 +115,7 @@
     font-size: 26.267px;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 28.267px */
+    line-height: 120%;
     letter-spacing: -0.424px;
 }
 
@@ -182,8 +183,20 @@
     }
 }
 
-@media (max-width:900px) {
+@media (max-width:600px) {
+    .Spotlight-overall-container{
+        background-image: url(../../assets/Spotlight/bg-iPad.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center, left center, left center ; 
+    }
     .spotlight-roles{
         font-size: 15.267px;
     }
+}
+
+
+
+@media (max-width:400px){
+
 }
