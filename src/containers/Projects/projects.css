@@ -152,6 +152,9 @@
   }
 
     .project-details-div {
+        min-height: 300px;
+        max-height: fit-content;
+        height: fit-content;
         min-width: 75%; 
         padding: 30px 10px; 
         transition: transform 0.3s ease; 
@@ -161,5 +164,24 @@
 @media (max-width: 800px) {
   .Projects-overall-container{
     padding: 80px 1% 0 1%;
+}
+}
+
+@media (max-width: 600px) {
+  .project-logo-img{
+    overflow: visible;
+  }
+  .carousel-button{
+    border: none;
+    background: transparent;
+  }
+  .projects-description{
+    overflow: visible;
+  }
+  .projects-button-container{
+    overflow: visible;
+  }
+  .projects-live-demo-button{
+    overflow: visible;
 }
 }

@@ -22,7 +22,7 @@ function Skills() {
             <div className='flex-center skills-grid'>
                 {Object.entries(skills).map(([skillName, SkillSVG], skillIndex) => (
                 <div key={skillIndex} className='flex-center skill-card'>
-                    <div className='skill-icon'>
+                    <div className='flex-center skill-icon'>
                     <SkillSVG />
                     </div>
                     <p className='skill-name'>{skillName}</p>

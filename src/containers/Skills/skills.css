@@ -8,7 +8,7 @@
 .skills-container{
     flex-wrap: wrap;
     gap: 15%;
-    margin: 30px 0 0 0;
+    margin: 30px 5% 0 5%;
 }
 
 .skills-category {
@@ -52,5 +52,33 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.97px;
+}
+
+@media (max-width:600px) {
+    .skills-container{
+        gap: 5%;
+    }
+    
+    .skills-category {
+        margin-bottom: 20px;
+    }
+    .skills-grid {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .skill-icon {
+        height: 35px;
+        width: 35px;
+        margin-bottom: 10px;
+    }
+
+    .skill-icon > svg {
+        height: 35px;
+        width: 30px;
+        object-fit: cover;
+    }
+    .skill-name {
+        font-size: 15.39px;
+    }
 }
 
