@@ -53,11 +53,13 @@
 }
 
 @media (max-width: 500px) {
+    .orglogoset-container {
+        padding: 20px 5% 0 5%;
+    }
     .orglogo-container {
         min-width: 160px;
         height: 70px;
         background: #000; 
-
     }
     
     .orglogo-img {

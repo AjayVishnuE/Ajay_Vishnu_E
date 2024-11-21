@@ -111,3 +111,89 @@
     background: #91ff00cc;
 }
 
+.whoami-download-button > svg {
+    margin-top: 2px;
+}
+
+
+@media (max-width:1200px) {
+    .whoami-description{
+        font-size: 22px;
+    }
+
+    .wd-1{
+        padding: 60px 9% 10px 9%;
+    }
+    
+    .wd-2{
+        padding: 30px 9% 40px 9%;
+    }
+
+    .key-terms-number{
+        font-size: 75.863px;
+    }
+
+    .key-terms-line1-0{
+        font-size: 30.351px;
+    }
+    
+    .key-terms-line2-0{
+        font-size: 23.462px;
+    }
+    
+    .key-terms-line1-1{
+        font-size:  27.68px;
+    }
+    
+    .key-terms-line2-1{
+        font-size:  31.134px;
+    }
+}
+
+
+@media (max-width:900px) {
+    .whoami-description{
+        font-size: 21px;
+    }
+
+    .wd-1{
+        padding: 50px 9% 10px 9%;
+    }
+
+    .key-terms-number{
+        font-size: 55.863px;
+    }
+
+    .key-terms-line1-0{
+        font-size: 27.351px;
+    }
+    
+    .key-terms-line2-0{
+        font-size: 20.462px;
+    }
+    
+    .key-terms-line1-1{
+        font-size:  24.68px;
+    }
+    
+    .key-terms-line2-1{
+        font-size:  28.134px;
+    }
+}
+
+@media (max-width:600px) {
+    .whoami-description{
+        font-size: 18px;
+    }
+    
+    .whoami-download-button{
+        margin: 20px 0 0 0;
+        font-size: 15.005px;
+        gap: 2px;
+    }
+
+    .whoami-download-button > svg {
+        height: 14px;
+        margin-top: 0px;
+    }
+}

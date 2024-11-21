@@ -49,3 +49,23 @@
     transition: fill 0.3s ease, stroke 0.3s ease; 
     stroke:  var(--PortGreen);  
 }
+
+@media (max-width:1200px) {
+    .p-heading{
+        font-size: 40px;
+        padding: 0;
+    }
+}
+
+@media (max-width:900px) {
+    .p-heading{
+        font-size: 39px;
+    }
+}
+
+@media (max-width:500px) {
+    .p-heading{
+        text-align: center;
+        font-size: 30px;
+    }
+}

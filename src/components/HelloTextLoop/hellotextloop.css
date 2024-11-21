@@ -1,5 +1,5 @@
 .overall-container{
-    margin-top: 210px;
+    margin-top: -5%;
 }
 
 .typewriter-container{
@@ -23,26 +23,34 @@ span{
 
 @media (max-width:1450px) {
     .overall-container{
-        padding-top: 50px;
+        /* padding-top: 20%; */
     }
 }
 @media (max-width:2600px) and (min-height:1000px){
     .overall-container{
-        padding-top: 12%;
+        /* padding-top: 12%; */
     }
 }
 
 @media (max-width:1500px) and (min-height:1000px){
     .overall-container{
-        padding-top: 19%;
+        margin-top: -12%;
+    }
+}
+
+@media (max-width:600px) {
+    span{
+        font-size: 16.029px;
+    }
+    .overall-container{
+        margin-top: -10%;
     }
 }
 
 
-
 @media (max-width:750px) and (min-height:1000px){
     .overall-container{
-        padding-top: 40%;
+        /* padding-top: 40%; */
     }
 }
 /* ipad air

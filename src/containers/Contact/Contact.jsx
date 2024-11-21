@@ -43,7 +43,7 @@ function Contact() {
     }, []);
   return (
     <div id='Contact' className='contact-overall-container'>
-        <p className='p-heading contact-h'>CONNECT WITH ME</p>
+        <p className='p-heading'>CONNECT WITH ME</p>
         <p className='contact-c1'>Are you looking for a <label className='p-highlight'>web developer</label>?</p>
         <p className='contact-c2'>Then you’re in the right place. Get the fastest solutions you’re looking for.<br></br> Just <label className='p-highlight'>reach out </label>and let me know!</p>
         <p className='contact-email'><span></span>{ConnectSectionData.email}</p>

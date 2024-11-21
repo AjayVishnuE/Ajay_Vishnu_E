@@ -175,6 +175,10 @@
     border: none;
     background: transparent;
   }
+
+  .Projects-container{
+    margin: 60px 0 0 0;
+  }
   .projects-description{
     overflow: visible;
   }
