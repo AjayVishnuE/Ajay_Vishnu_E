@@ -44,11 +44,9 @@
     font-size: 89.863px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100%; /* 89.863px */
+    line-height: 100%; 
     letter-spacing: -1.348px;
 }
-
-/* .key-terms-insider-insider{} */
 
 .ktl{
     color: var(--PortWhite, #FFF);

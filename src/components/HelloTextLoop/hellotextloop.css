@@ -21,17 +21,6 @@ span{
     letter-spacing: -0.3px;
 }
 
-@media (max-width:1450px) {
-    .overall-container{
-        /* padding-top: 20%; */
-    }
-}
-@media (max-width:2600px) and (min-height:1000px){
-    .overall-container{
-        /* padding-top: 12%; */
-    }
-}
-
 @media (max-width:1500px) and (min-height:1000px){
     .overall-container{
         margin-top: -12%;
@@ -43,16 +32,10 @@ span{
         font-size: 16.029px;
     }
     .overall-container{
-        margin-top: -10%;
+        margin-top: -15%;
     }
 }
 
-
-@media (max-width:750px) and (min-height:1000px){
-    .overall-container{
-        /* padding-top: 40%; */
-    }
-}
 /* ipad air
 @media only screen 
   and (min-device-width : 800px) 

@@ -76,8 +76,6 @@
     fill: #91ff00cc;
 }
 
-/* Add these to your existing projects.css file */
-
 .projects-carousel-wrapper {
     position: relative;
     width: 100%;
@@ -181,6 +179,7 @@
   }
   .projects-description{
     overflow: visible;
+    font-size: 14px;
   }
   .projects-button-container{
     overflow: visible;

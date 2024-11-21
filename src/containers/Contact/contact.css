@@ -84,6 +84,7 @@
 .copyrights-line{
     color: var(--PortWhite);
     text-align: center;
+    text-wrap:nowrap;
     font-family: "Red Hat Mono";
     font-size: 15px;
     padding: 40px 0 20px 0;
@@ -92,18 +93,22 @@
     line-height: 100%; 
 }
 
-.p-mono-text{
-    font-family: "Red Hat Mono";
-
+.copyrights-line >svg{
+    padding: 0 3px;
 }
 
-.copyrights-name{
+.p-mono-text{
+    font-family: "Red Hat Mono";
+}
+
+.copyrights-line > a{
+    font-size: 15px;
     color: #888;
     font-family: "Red Hat Mono";
     /* font-family: Red Hat Display; */
 }
 
-.copyrights-name:hover{
+.copyrights-line > a:hover{
     color:var(--PortGreen)
 }
 
@@ -139,6 +144,9 @@
     }
 
     .copyrights-line{
+        font-size: 10px;
+    }
+    .copyrights-line > a{
         font-size: 10px;
     }
 }
@@ -205,5 +213,16 @@
         width: 40px;
         margin-top: 12px;
         height: 40px;
+    }
+    .copyrights-line{
+        font-size: 10px;
+    }
+    .copyrights-line > svg{
+        height: 12px;
+        width: 12px;
+        padding: 0 1px;
+    }
+    .copyrights-line > a{
+        font-size: 10px;
     }
 }

@@ -17,7 +17,6 @@ const getHighlightedText = (text, keywords) => {
   );
 };
 
-// Main Component
 function WhoAmI() {
   const { DescriptionParagraph1, DescriptionParagraph2, Highlights } = WhoAmIData;
   const combinedKeyTerms = [...WhoAmIData.KeyTerms1, ...WhoAmIData.KeyTerms2];

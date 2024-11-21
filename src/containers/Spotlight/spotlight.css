@@ -18,7 +18,7 @@
     color: var(--PortWhite, #FFF);
     text-align: center;
     font-family: "Red Hat Mono";
-    font-size: 80.703px;
+    font-size: 75.703px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -34,7 +34,7 @@
     margin-top: -10px;
     color: #888;
     font-family: "Red Hat Mono";
-    font-size: 52.639px;
+    font-size: 48.639px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -52,7 +52,7 @@
     border: 1.276px solid var(--PortGrey, #CCC);
     gap: 10px;
     height: 55px;
-    width: 230px;
+    width: 220px;
 }
 
 .spotlight-download-button:hover{
@@ -62,7 +62,7 @@
 .spotlight-download-button > p{
     color: var(--PortWhite, #FFF);
     font-family: "Red Hat Mono";
-    font-size: 20.029px;
+    font-size: 19.029px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -79,7 +79,7 @@
     background: var(--PortGreen, #8FFF00);
     gap: 10px;
     height: 56px;
-    width: 231px;
+    width: 221px;
 }
 
 .spotlight-contact-button:hover{
@@ -89,7 +89,7 @@
 .spotlight-contact-button > p{
     color: #000;
     font-family: "Red Hat Mono";
-    font-size: 20.029px;
+    font-size: 19.029px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -97,7 +97,7 @@
 }
 
 .contacticon{
-    height: 17px;
+    height: 16px;
     width: auto;
 }
 
@@ -126,7 +126,7 @@
     font-size: 28.267px;
     font-style: normal;
     font-weight: 800;
-    line-height: 100%; /* 28.267px */
+    line-height: 100%; 
     letter-spacing: -0.424px;
 }
 
@@ -137,7 +137,7 @@
     }
 }
 
-@media (max-width:1200px) and (min-height:600px) and  (max-height:1500px){
+@media (max-width:1200px) and (min-height:600px){
     .Spotlight-overall-container{
         background-image: url(../../assets/Spotlight/bg-iPad.png);
         background-size: cover, auto, auto;

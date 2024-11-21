@@ -109,8 +109,17 @@
     }
     .eit{
         text-wrap:stable;
+        font-size: 20px;
     }
     .exp-edu-heading{
         margin: 20px 0 0 0;
+    }
+
+    .item-duration{
+        font-size: 15px;
+    }
+
+    .item-description{
+        font-size: 14px;
     }
 }

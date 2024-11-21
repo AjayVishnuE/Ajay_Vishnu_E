@@ -2,24 +2,21 @@ import React, { useState, useEffect } from 'react';
 import './edgecube.css';
 
 const EdgeCube = ({ edgeSize, frontColor = "#FFFFFF80", backColor = "#FFFFFF1A" }) => {
-  // State to toggle colors
   const [isHovered, setIsHovered] = useState(false);
   const [toggle, setToggle] = useState(false);
 
-  // Effect to handle the toggling effect when hovered
   useEffect(() => {
     let interval;
     if (isHovered) {
       interval = setInterval(() => {
         setToggle((prev) => !prev);
-      }, 400); // Change color every 500ms (adjust as needed)
+      }, 500); 
     } else {
       clearInterval(interval);
     }
     return () => clearInterval(interval);
   }, [isHovered]);
 
-  // Switch colors based on toggle state
   const currentFrontColor = toggle ? backColor : frontColor;
   const currentBackColor = toggle ? frontColor : backColor;
 
