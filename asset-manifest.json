@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Ajay_Vishnu_E/static/css/main.b55be2bf.css",
+    "main.js": "/Ajay_Vishnu_E/static/js/main.9d119bf6.js",
+    "static/media/bg-iPad.png": "/Ajay_Vishnu_E/static/media/bg-iPad.6b670273f7ffe25b3007.png",
+    "static/media/bg-phone.png": "/Ajay_Vishnu_E/static/media/bg-phone.43285368ff0813eb8464.png",
+    "static/media/bg.png": "/Ajay_Vishnu_E/static/media/bg.7dfd11d922503bcf3862.png",
+    "static/media/Resume_Ajay_Vishnu_E.pdf": "/Ajay_Vishnu_E/static/media/Resume_Ajay_Vishnu_E.65a6e143e4a391718dd1.pdf",
+    "static/media/CSI-WEB-Logo.png": "/Ajay_Vishnu_E/static/media/CSI-WEB-Logo.f1b53d7866196ce3beb6.png",
+    "static/media/WRAP-Web-Logo.png": "/Ajay_Vishnu_E/static/media/WRAP-Web-Logo.dd90e8928ca1f7ff29a1.png",
+    "static/media/CCE Logo.png": "/Ajay_Vishnu_E/static/media/CCE Logo.5f99a8dc2d80da40c769.png",
+    "static/media/CSI SB CCE Logo.png": "/Ajay_Vishnu_E/static/media/CSI SB CCE Logo.3f4797df907a3003d54d.png",
+    "index.html": "/Ajay_Vishnu_E/index.html",
+    "main.b55be2bf.css.map": "/Ajay_Vishnu_E/static/css/main.b55be2bf.css.map",
+    "main.9d119bf6.js.map": "/Ajay_Vishnu_E/static/js/main.9d119bf6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b55be2bf.css",
+    "static/js/main.9d119bf6.js"
+  ]
+}
